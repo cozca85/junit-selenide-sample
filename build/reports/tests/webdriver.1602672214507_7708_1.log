@@ -1,0 +1,175 @@
+[1602672215.783][INFO]: Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 33285
+[1602672215.783][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1602672216.737][INFO]: [450407fa3942429bd6b614509c2cbae5] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\canoz\\eclipse-workspace\\selenide-sample\\build\\downloads\\1602672207835_7708_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\canoz\\eclipse-workspace\\selenide-sample\\build\\downloads\\1602672207835_7708_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1602672216.744][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\canoz\\eclipse-workspace\\selenide-sample\\build\\downloads\\1602672207835_7708_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1602672216.745][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1602672216.747][INFO]: Cannot switch to US keyboard layout - some keys may be interpreted incorrectly
+[1602672216.747][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\canoz\AppData\Local\Temp\scoped_dir7216_980843127" data:,
+[1602672218.672][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1602672220.685][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1602672222.713][INFO]: [450407fa3942429bd6b614509c2cbae5] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "86.0.4240.75",
+      "chrome": {
+         "chromedriverVersion": "86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378})",
+         "userDataDir": "C:\\Users\\canoz\\AppData\\Local\\Temp\\scoped_dir7216_980843127"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:51792"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "450407fa3942429bd6b614509c2cbae5"
+}
+[1602672222.799][INFO]: [450407fa3942429bd6b614509c2cbae5] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1602672222.799][INFO]: Waiting for pending navigations...
+[1602672222.806][INFO]: Done waiting for pending navigations. Status: ok
+[1602672222.925][INFO]: Waiting for pending navigations...
+[1602672222.928][INFO]: Done waiting for pending navigations. Status: ok
+[1602672222.928][INFO]: [450407fa3942429bd6b614509c2cbae5] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 10,
+   "y": 10
+}
+[1602672222.937][INFO]: [450407fa3942429bd6b614509c2cbae5] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1602672222.937][INFO]: [450407fa3942429bd6b614509c2cbae5] RESPONSE SetTimeouts
+[1602672222.951][INFO]: [450407fa3942429bd6b614509c2cbae5] COMMAND Navigate {
+   "url": "http://localhost:8080www.google.com"
+}
+[1602672222.951][INFO]: Waiting for pending navigations...
+[1602672222.953][INFO]: Done waiting for pending navigations. Status: ok
+[1602672222.955][INFO]: Waiting for pending navigations...
+[1602672222.957][INFO]: Done waiting for pending navigations. Status: ok
+[1602672222.957][INFO]: [450407fa3942429bd6b614509c2cbae5] RESPONSE Navigate ERROR invalid argument
+  (Session info: chrome=86.0.4240.75)
+[1602672223.031][INFO]: [450407fa3942429bd6b614509c2cbae5] COMMAND Quit {
+
+}
+[1602672223.259][INFO]: [450407fa3942429bd6b614509c2cbae5] RESPONSE Quit
